@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifItem /> debe de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="border-1 border-gray-300 hover:border-cyan-500 rounded shadow-2xl"
+  >
+    <figure
+      class="bg-white hover:bg-cyan-100"
+    >
+      <img
+        alt="Saitama"
+        class="cover w-100 h-100"
+        src="https://one-punch.com/saitama.jpg"
+      />
+      <figcaption
+        class="text-sm p-2 font-semibold text-gray-700 rounded"
+      >
+        Saitama
+      </figcaption>
+    </figure>
+  </div>
+</div>
+`;

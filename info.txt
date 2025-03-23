@@ -1,0 +1,15 @@
+Link instalacion 
+https://gist.github.com/Klerith/ca7e57fae3c9ab92ad08baadc6c26177
+
+si les tira error, solo tienen quye renommbrar el archivo jest.config.js a jest.config.cjs, 
+solo cambiando la extension lo arregla.
+
+///////////////////////////////////////
+Para que corrija la sintaxi
+editar el archivo eslint.config.js
+linea 10 env: {"jest": true },
+///////////////////////////////////////
+
+yarn add -D @babel/core
+yarn add @testing-library/user-event @testing-library/dom --dev
+yarn add -D @testing-library/react @testing-library/jest-dom jest
